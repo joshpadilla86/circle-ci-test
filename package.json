@@ -1,0 +1,22 @@
+{
+  "name": "circle-ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "start": "node server.js",
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
